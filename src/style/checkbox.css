@@ -1,0 +1,41 @@
+.Container{
+  background-image: url("./checkboxbg.jpg");
+}
+.search{
+  text-align: center;
+  justify-content: center;
+  display: grid   ;
+  margin-top: 25px;
+}
+.select {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 45vh;
+  justify-content: center;
+}
+
+.select1{
+  width:10vw;
+}
+.SearchButton button{
+  display:block;
+  justify-items: center;
+  align-items: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:12px
+}
+@media(max-width:1200px){
+  .select{
+      display: grid;
+      margin-top: 15vh;
+      margin-left:auto;
+      margin-right:auto;
+  }
+  .select1{
+      width:150px;
+  }
+}
